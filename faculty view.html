@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Faculty View</title>
+	<link href='faculty_view.css' rel='stylesheet'/>
+</head>
+<body>
+
+	<section class= "loginHeader">
+		<h1 class= "centerWhite"> Faculty View </h1>
+	</section>
+
+	<br>
+	<br>
+	<br>
+
+	<section class= "leftWhite">
+		<h3 class="loginHeader"> Basic informations </h3>
+		<!-- REMOVE ALL THE <p> TAGS WHEN USING PHP-->
+		<p >Name:</p>
+		<p>Email:</p>
+		<p>Initial:</p>
+		<p>Phone:</p>
+		<!-- REMOVE ALL THE <p> TAGS WHEN USING PHP-->
+	</section>	
+
+	<br>
+	<br>
+	<br>
+
+	<section class="leftWhite"> 
+		<h3> Consultation Routine </h3>
+		<table class="tableBorder">
+
+			<!-- REMOVE ALL TABLE ELEMENTS WHEN USING PHP-->
+			<tr>
+				<td> S/N </td>
+				<td> Student_id </td>
+				<td> Course_code </td>
+				<td> Section </td>
+ 				<td> Day </td>
+				<td> Time </td>
+			</tr>
+			<tr>
+				<td> S1 </td>
+				<td>21101124</td>
+				<td>CSE370</td>
+				<td>6</td>
+				<td>Saturday</td>
+				<td>12:30PM</td>
+			</tr>
+			<tr>
+				<td> S2 </td>
+				<td>21101131</td>
+				<td>CSE370</td>
+				<td>6</td>
+				<td>Thursday</td>
+				<td>2:30PM</td>
+			</tr>			
+			<tr>
+				<td> S3 </td>
+				<td>21101224</td>
+				<td>CSE111</td>
+				<td>9</td>
+				<td>Thursday</td>
+				<td>9:30AM</td>
+			</tr>
+			<!-- REMOVE ALL TABLE ELEMENTS WHEN USING PHP-->
+
+		</table>
+
+	<br>
+
+		<form class= "loginHeader">
+			<h3 class= "leftWhite">Want do cancel a consultation hour?</h3>
+	        <input class="facultySearch" type="text" name="delete" placeholder="Enter Consulation S/N" required>
+	     	<button type="submit" class="facultyButton">DELETE</button>
+	     </form>
+	</section>
+</body>
+</html>
