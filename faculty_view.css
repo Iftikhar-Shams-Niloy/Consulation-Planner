@@ -1,0 +1,85 @@
+body{
+	background-image: url("images/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family:sans-serif;
+}
+
+.loginHeader{
+	width: 80%;
+	background-color: rgba(39,92,171,255);
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+	max-widht: 1000px;
+	border-radius: 15px;
+}
+
+.centerWhite{
+	position: relative;
+	top: -25px;
+  text-align: center;
+  text-decoration-color: whitesmoke;
+  background-color: whitesmoke;
+  padding:15px;
+  border-radius: 15px;
+}
+
+.leftWhite{
+	position: relative;
+  text-align: left;
+  text-decoration-color: whitesmoke;
+  background-color: whitesmoke;
+  padding:15px;
+  border-radius: 15px;
+}
+
+.leftWhite p{
+	padding-left: 15px;
+}
+.facultyButton{
+	width: 80px;
+	height: 30px;
+	display: ruby;
+	background-color: ghostwhite;
+	box-sizing: border-box ;
+	margin-left: auto;
+	margin-right:auto;
+	border-radius: 5%;
+	border-width: thick;
+  border-color: skyblue;
+}
+.facultySearch{
+	width: 250px;
+	height: 30px;
+	display: ruby;
+	background-color: ghostwhite;
+	box-sizing: border-box ;
+	margin-left: auto;
+	margin-right:auto;
+	border-radius: 5%;
+	border-width: thick;
+  border-color: skyblue;
+}
+.tableBorder{
+	margin-left:auto;
+	margin-right:auto;
+	border-style: groove;
+	display: ruby;
+	background-color: ghostwhite;
+	box-sizing: border-box ;
+	margin-left: auto;
+	margin-right:auto;
+	border-radius: 0%;
+	border-width: thick;
+	border-color: skyblue;
+}
+.tableBorder td{
+	background-color: skyblue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
