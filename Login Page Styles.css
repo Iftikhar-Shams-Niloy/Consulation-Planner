@@ -1,0 +1,137 @@
+body{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family:sans-serif;
+}
+.loginHeader{
+	width: 80%;
+	background-color: rgba(39,92,171,255);
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+	max-widht: 1000px;
+	border-radius: 15px;
+}
+.centerWhite{
+	position: relative;
+	top: -25px;
+  text-align: center;
+  text-decoration-color: whitesmoke;
+  background-color: whitesmoke;
+  padding:15px;
+  border-radius: 15px;
+}
+.image_center{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+.loginOption{
+	width: 450px;
+	height: 50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.text_center{
+  text-align: center;
+}
+.text_left{
+	text-align: left;
+}
+.text_right{
+	text-align: right;
+}
+.skyblue{
+	color: skyblue;
+}
+.white{
+  text-align: center;
+	color: white;
+}
+.loginBox{
+	width: 450px;
+	height: 280px;
+	background-color: whitesmoke;
+	box-sizing: border-box ;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 10%;
+	border-width: thick;
+	border-style: dotted;
+  border-color: skyblue;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: relative;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+.username_password{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	top: -60px;
+}
+.loginText{
+	position: relative;
+	top: -60px;
+	text-align: center;
+}
+.loginBox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.loginOptionBox{
+	width: 450px;
+	height: 60px;
+	background-color: whitesmoke;
+	box-sizing: border-box ;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 10%;
+	border-width: thick;
+	border-style: dotted;
+  border-color: skyblue;
+}
+.loginOptionBox legend{
+	font-weight: bold;
+}
+.loginBox label{
+	width: 100%;
+}
+.loginBox input[type="submit"]{
+	width: 80px;
+	height: 30px;
+	display: ruby;
+	background-color: ghostwhite;
+	box-sizing: border-box ;
+	margin-left: auto;
+	margin-right:auto;
+	border-radius: 20%;
+	border-width: thick;
+  border-color: skyblue;
+}
+.loginBox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	height: 20px;
+	font-size:18px;
+}
+.support{
+	position: relative;
+	left: 80%;
+	font-weight: bold,italic;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
