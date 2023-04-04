@@ -1,0 +1,32 @@
+.support_box1{
+	width: 75%;
+	height: 50%;
+	background-color: floralwhite;
+	box-sizing: border-box ;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 0;
+	border-width: 10px;
+	border-style: groove;
+	border-color: deepskyblue;
+	padding: 20px;
+}
+.text_center{
+	text-align: center;
+}
+.support_background{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family:sans-serif;
+}
+.cell_style{
+	border-style: ridge;
+	border-color: deepskyblue;	
+}
+.make_center{
+	margin-left:auto;
+	margin-right:auto;
+}
